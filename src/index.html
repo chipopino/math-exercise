@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="content.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body onload="onload()">
+    <div id="main-body" class="main-body">
+        <div id="main" class="main"></div>
+        <div id="hint" class="main"></div>
+        <div id="solution" class="main"></div>
+        <div id="explain" class="main"></div>
+    </div>
+    <div class="menu">
+        <button class="btn" id="btn-main" onClick="setBtn('main')" style="background-color: var(--green);">main</button>
+        <button class="btn" id="btn-hint" onClick="setBtn('hint')">hint</button>
+        <button class="btn" id="btn-solution" onClick="setBtn('solution')">solution</button>
+        <button class="btn" id="btn-explain" onClick="setBtn('explain')">explain</button>
+    </div>
+</body>
+</html>

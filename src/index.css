@@ -1,0 +1,40 @@
+:root {
+    --blue: #3498db;
+    --lightblue: lightblue;
+    --green: #00A36C;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+.main-body {
+    background-color: var(--lightblue);
+    flex-grow: 1;
+    padding: 12px;
+}
+
+
+.menu {
+    background: linear-gradient(to right, var(--blue), var(--lightblue));
+    display: flex;
+    gap: 0px;
+}
+.btn {
+    background-color: rgba(1,1,1,0.05);
+    width: 6rem;
+    height: 100%;
+    padding: 1rem;
+    border: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-right-color: black;
+    transition: background-color 0.2s, color 0.2s;
+    &:hover {
+        color: white;
+    }
+}
